@@ -1,5 +1,39 @@
 {
-  "HomePage": {
-    "title": "Hello world!"
+  "Layout": {
+    "NavigationBar": {
+      "links": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "programs": "Programs",
+        "results": "Results",
+        "contact": "Contact"
+      },
+      "cta": {
+        "subtitle": "30-min session",
+        "title": "Book your call",
+        "introduction": "No pressure. Just a clear path forward."
+      },
+      "alt": {
+        "openMenu": "Open menu"
+      }
+    }
+  },
+  "Others": {
+    "Theme": {
+      "toggleTheme": "Toggle theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "LanguageSwitcher": {
+      "changeLanguage": "Change language",
+      "portuguese": "Portuguese",
+      "english": "English"
+    },
+    "Alt": {
+      "home": "Home",
+      "accessBtn": "Access"
+    }
   }
 }

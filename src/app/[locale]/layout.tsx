@@ -1,5 +1,5 @@
 // Next.js
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -12,15 +12,33 @@ import { ThemeProvider } from "@/components/theme-provider";
 
 // CSS
 import "./globals.css";
+import NavigationBar from "@/components/layout/NavigationBar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const generalSans = localFont({
+  variable: "--font-general-sans",
+  display: "swap",
+  src: [
+    {
+      path: "../../assets/fonts/generalSans/GeneralSans-Bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../../assets/fonts/generalSans/GeneralSans-Semibold.otf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../../assets/fonts/generalSans/GeneralSans-Medium.otf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../../assets/fonts/generalSans/GeneralSans-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
 });
 
 export const metadata: Metadata = {
@@ -32,6 +50,7 @@ type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 };
+
 export default async function RootLayout({ children, params }: Props) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
@@ -39,17 +58,23 @@ export default async function RootLayout({ children, params }: Props) {
   }
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html
+      lang={locale}
+      suppressHydrationWarning
+      className="scroll-smooth"
+      data-scroll-behavior="smooth"
+    >
+      <body className={`${generalSans.className} antialiased`}>
         <ThemeProvider
           attribute={"class"}
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <NextIntlClientProvider>
+            <NavigationBar />
+            {children}
+          </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>
