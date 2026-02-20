@@ -1,5 +1,5 @@
 // Next.js & Next-Intl
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
 // Components
 import Validation from "./Validation";
@@ -8,8 +8,8 @@ import CTA from "./CTA";
 const titleTypography =
   "text-heading-5 leading-heading-5 tracking-heading-5 lg:text-heading-1 lg:leading-heading-1 lg:tracking-heading-1";
 
-export const Hero = async () => {
-  const t = await getTranslations("Sections.Hero");
+export const Hero = () => {
+  const t = useTranslations("Sections.Hero");
 
   return (
     <section className="section-container grid grid-cols-1 gap-6 lg:grid-cols-6 items-end pb-4 lg:pb-10">

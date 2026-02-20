@@ -30,6 +30,28 @@
         "title": "Book your call",
         "introduction": "No pressure. Just a clear path forward."
       }
+    },
+    "Stats": {
+      "0": {
+        "value": "+250",
+        "title": "Women Coached",
+        "description": "From postpartum recovery to full transformations"
+      },
+      "1": {
+        "value": "98%",
+        "title": "Consistency Rate",
+        "description": "Clients report staying on track week after week"
+      },
+      "2": {
+        "value": "5",
+        "title": "Average Feedback",
+        "description": "Based on client satisfaction and progress surveys"
+      },
+      "3": {
+        "value": "3x",
+        "title": "Faster Progress",
+        "description": "Optimized methodology for faster results"
+      }
     }
   },
   "Others": {

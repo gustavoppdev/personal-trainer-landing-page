@@ -17,3 +17,10 @@ export type NavigationLink = {
   href: string;
   labelKey: TranslationKey;
 };
+
+// Tipo para estatísticas - Stats.tsx
+export type StatType = {
+  value: TranslationKey;
+  title: TranslationKey;
+  description: TranslationKey;
+};

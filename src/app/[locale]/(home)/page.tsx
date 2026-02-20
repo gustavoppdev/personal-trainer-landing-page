@@ -7,6 +7,7 @@ import NavigationBar from "@/components/layout/NavigationBar";
 
 // Assets
 import { heroImage } from "@/assets";
+import { Stats } from "./components/Stats";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
         <NavigationBar />
         <Hero />
       </div>
+      <Stats />
     </main>
   );
 };

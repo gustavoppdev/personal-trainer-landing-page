@@ -1,14 +1,14 @@
 // Next.js & Next-Intl
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 // Assets & Componentes
 import { calendarIcon } from "@/assets";
 import ButtonPrimary from "@/components/common/ButtonPrimary";
 
-const CTA = async () => {
-  const t = await getTranslations("Sections.Hero");
-  const tAlt = await getTranslations("Others.Alt");
+const CTA = () => {
+  const t = useTranslations("Sections.Hero");
+  const tAlt = useTranslations("Others.Alt");
 
   return (
     <div className="text-custom-body-3 space-y-2 lg:col-span-2 ">

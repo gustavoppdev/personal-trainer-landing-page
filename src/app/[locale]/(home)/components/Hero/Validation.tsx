@@ -1,5 +1,6 @@
 // Next.js & Next-Intl
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 // Assets
 import { avatar1, avatar2, starIcon } from "@/assets";
@@ -7,11 +8,10 @@ import { avatar1, avatar2, starIcon } from "@/assets";
 // Lucide Icons & Componentes
 import { ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getTranslations } from "next-intl/server";
 
-const Validation = async () => {
-  const t = await getTranslations("Sections.Hero");
-  const tAlt = await getTranslations("Others.Alt");
+const Validation = () => {
+  const t = useTranslations("Sections.Hero");
+  const tAlt = useTranslations("Others.Alt");
 
   return (
     <div className="text-custom-body-3 flex flex-col gap-6">
