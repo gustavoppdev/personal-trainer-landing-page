@@ -1,6 +1,6 @@
 // Next.js & Next-Intl
 import { Link } from "@/i18n/navigation";
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 // Assets
@@ -9,8 +9,8 @@ import { rachelLogo } from "@/assets";
 // Components
 import NavigationBarMobile from "./NavigationBarMobile";
 
-const NavigationBar = async () => {
-  const t = await getTranslations("Others.Alt");
+const NavigationBar = () => {
+  const t = useTranslations("Others.Alt");
 
   return (
     <header className="relative section-container py-4 lg:py-10">
