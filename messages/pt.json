@@ -1,5 +1,39 @@
 {
-  "HomePage": {
-    "title": "oi world!"
+  "Layout": {
+    "NavigationBar": {
+      "links": {
+        "home": "Início",
+        "about": "Sobre",
+        "services": "Serviços",
+        "programs": "Programas",
+        "results": "Resultados",
+        "contact": "Contato"
+      },
+      "cta": {
+        "subtitle": "Sessão de 30 minutos",
+        "title": "Agende sua chamada",
+        "introduction": "Sem pressão. Apenas um caminho claro para avançar."
+      },
+      "alt": {
+        "openMenu": "Abrir menu"
+      }
+    }
+  },
+  "Others": {
+    "Theme": {
+      "toggleTheme": "Alterar tema",
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    },
+    "LanguageSwitcher": {
+      "changeLanguage": "Alterar idioma",
+      "portuguese": "Português",
+      "english": "Inglês"
+    },
+    "Alt": {
+      "home": "Início",
+      "accessBtn": "Acessar"
+    }
   }
 }
