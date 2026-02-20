@@ -8,6 +8,7 @@ import NavigationBar from "@/components/layout/NavigationBar";
 // Assets
 import { heroImage } from "@/assets";
 import { Stats } from "./components/Stats";
+import CustomerQuote from "./components/CustomerQuote";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
         <Hero />
       </div>
       <Stats />
+      <CustomerQuote />
     </main>
   );
 };
