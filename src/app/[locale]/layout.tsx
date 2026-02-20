@@ -71,10 +71,7 @@ export default async function RootLayout({ children, params }: Props) {
           enableSystem
           disableTransitionOnChange
         >
-          <NextIntlClientProvider>
-            <NavigationBar />
-            {children}
-          </NextIntlClientProvider>
+          <NextIntlClientProvider>{children}</NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>

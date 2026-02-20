@@ -1,5 +1,10 @@
 // == Importação
 import rachelLogo from "./images/rachelLogo.svg";
+import heroImage from "./images/heroImage.webp";
+import avatar1 from "./images/avatar1.png";
+import avatar2 from "./images/avatar2.png";
+import starIcon from "./images/starIcon.svg";
+import calendarIcon from "./images/calendarIcon.svg";
 
 // == Exportação
-export { rachelLogo };
+export { rachelLogo, heroImage, avatar1, avatar2, starIcon, calendarIcon };

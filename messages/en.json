@@ -19,6 +19,19 @@
       }
     }
   },
+  "Sections": {
+    "Hero": {
+      "guarantee": "30-Day Money-Back Guarantee",
+      "headline": "Because your best self isn’t behind you, it’s ahead",
+      "trusted": "Trusted by 2,000+ clients worldwide",
+      "rating": "Rated 4.9 out of 5.0",
+      "cta": {
+        "subtitle": "30-min session",
+        "title": "Book your call",
+        "introduction": "No pressure. Just a clear path forward."
+      }
+    }
+  },
   "Others": {
     "Theme": {
       "toggleTheme": "Toggle theme",
@@ -33,7 +46,16 @@
     },
     "Alt": {
       "home": "Home",
-      "accessBtn": "Access"
+      "accessBtn": "Access",
+      "avatars": {
+        "1": "A happy customer smiling wearing orange headband",
+        "2": "A smiling happy customer with curly hair on a blue background",
+        "3": "Sara is a client smiling to the camera happily"
+      },
+      "icons": {
+        "star": "A yellow star",
+        "calendar": "A calendar"
+      }
     }
   }
 }
