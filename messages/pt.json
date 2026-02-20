@@ -19,6 +19,19 @@
       }
     }
   },
+  "Sections": {
+    "Hero": {
+      "guarantee": "Garantia de Reembolso em 30 Dias",
+      "headline": "Porque a sua melhor versão não ficou no passado — ela está chegando",
+      "trusted": "Mais de 2.000 clientes no mundo todo",
+      "rating": "Avaliado em 4.9 de 5.0",
+      "cta": {
+        "subtitle": "Sessão de 30 minutos",
+        "title": "Agende sua chamada",
+        "introduction": "Sem pressão. Apenas um caminho claro para avançar."
+      }
+    }
+  },
   "Others": {
     "Theme": {
       "toggleTheme": "Alterar tema",
@@ -33,7 +46,16 @@
     },
     "Alt": {
       "home": "Início",
-      "accessBtn": "Acessar"
+      "accessBtn": "Acessar",
+      "avatars": {
+        "1": "Cliente sorridente usando uma faixa laranja",
+        "2": "Cliente feliz com cabelo cacheado sobre um fundo azul",
+        "3": "Sara, cliente, sorrindo para a câmera"
+      },
+      "icons": {
+        "star": "Uma estrela amarela",
+        "calendar": "Um calendário"
+      }
     }
   }
 }

@@ -33,7 +33,7 @@ const ButtonPrimary = ({
         type === "primary"
           ? "bg-custom-primary hover:bg-custom-primary/90"
           : "bg-white dark:bg-custom-black-90 border border-black",
-        "p-4 pr-1 w-full lg:w-fit h-12.5 rounded-lg flex items-center justify-between text-base text-white cursor-pointer group font-medium",
+        "p-4 pr-1 w-full lg:w-fit h-12.5 rounded-lg flex items-center justify-between text-base text-custom-black-90 cursor-pointer group font-medium",
         styles,
       )}
     >
@@ -43,7 +43,7 @@ const ButtonPrimary = ({
         aria-label={t("accessBtn")}
         className={cn(
           hero && "lg:self-end",
-          "lg:ml-6 mr-1 group-hover:ml-10 transition-all duration-300",
+          "lg:ml-6 mr-1 group-hover:ml-10 transition-all duration-300  bg-custom-black-90 dark:bg-custom-white-90 text-primary-foreground",
         )}
       >
         <ArrowRight className="size-5" />
