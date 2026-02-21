@@ -9,6 +9,7 @@ import NavigationBar from "@/components/layout/NavigationBar";
 import { heroImage } from "@/assets";
 import { Stats } from "./components/Stats";
 import CustomerQuote from "./components/CustomerQuote";
+import { About } from "./components/About";
 
 const Home = () => {
   return (
@@ -32,6 +33,10 @@ const Home = () => {
       </div>
       <Stats />
       <CustomerQuote />
+
+      <div className="space-y-10">
+        <About />
+      </div>
     </main>
   );
 };

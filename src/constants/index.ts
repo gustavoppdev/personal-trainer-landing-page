@@ -1,4 +1,10 @@
-import { LocalesArrayType, NavigationLink, StatType } from "../types";
+import { crowIcon, fireIcon, lightningIcon } from "@/assets";
+import {
+  LocalesArrayType,
+  NavigationLink,
+  PhilosophyStatType,
+  StatType,
+} from "../types";
 
 // Array para LanguageSwitcher.tsx
 export const LocalesArray: LocalesArrayType[] = [
@@ -43,5 +49,21 @@ export const StatsArray: StatType[] = [
     value: "3.value",
     title: "3.title",
     description: "3.description",
+  },
+];
+
+// Array para About.tsx
+export const PhilosophyStatsArray: PhilosophyStatType[] = [
+  {
+    iconSrc: fireIcon,
+    description: "0.title",
+  },
+  {
+    iconSrc: lightningIcon,
+    description: "1.title",
+  },
+  {
+    iconSrc: crowIcon,
+    description: "2.title",
   },
 ];
