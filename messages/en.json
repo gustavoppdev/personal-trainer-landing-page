@@ -76,6 +76,30 @@
           "title": "Habits Over Quick Fixes"
         }
       }
+    },
+    "Services": {
+      "introduction": "Services",
+      "headline": "Choose the support that fits your life",
+      "description": "Flexible options to fit every budget and lifestyle, all packages includes nutrition guidance and on-going weekly support",
+      "ctaBtn": "Get Started with Rachel",
+      "features": {
+        "0": {
+          "title": "In-Person Training",
+          "description": "Train face-to-face with personalized coaching and real-time feedback"
+        },
+        "1": {
+          "title": "Online Coaching",
+          "description": "Flexible sessions from anywhere — your program, your schedule."
+        },
+        "2": {
+          "title": "Nutrition plans",
+          "description": "Tailored guidance to support your training and daily routine."
+        },
+        "3": {
+          "title": "Business or Group Training",
+          "description": "Designed for teams or partners who want shared motivation and accountability."
+        }
+      }
     }
   },
   "Others": {

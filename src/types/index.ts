@@ -31,3 +31,12 @@ export type PhilosophyStatType = {
   iconSrc: StaticImageData;
   description: TranslationKey;
 };
+
+// Tipo para Services.tsx
+export type ServiceFeatureType = {
+  icon: StaticImageData | string;
+  title: TranslationKey;
+  description: TranslationKey;
+  image?: StaticImageData;
+  type: "default" | "emphasis" | "withImage";
+};

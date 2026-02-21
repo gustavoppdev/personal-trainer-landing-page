@@ -76,6 +76,30 @@
           "title": "Hábitos acima de soluções rápidas"
         }
       }
+    },
+    "Services": {
+      "introduction": "Serviços",
+      "headline": "Escolha o suporte que combina com sua rotina",
+      "description": "Opções flexíveis para todos os estilos e orçamentos. Todos os planos incluem orientação nutricional e acompanhamento semanal.",
+      "ctaBtn": "Comece com a Rachel",
+      "features": {
+        "0": {
+          "title": "Treino Presencial",
+          "description": "Acompanhamento direto com correções em tempo real."
+        },
+        "1": {
+          "title": "Coaching Online",
+          "description": "Sessões flexíveis de onde você estiver — seu ritmo, seu horário."
+        },
+        "2": {
+          "title": "Planos Nutricionais",
+          "description": "Orientações personalizadas para apoiar seu treino e rotina."
+        },
+        "3": {
+          "title": "Treino em Grupo ou Empresas",
+          "description": "Ideal para equipes ou duplas que buscam motivação e responsabilidade compartilhada."
+        }
+      }
     }
   },
   "Others": {
