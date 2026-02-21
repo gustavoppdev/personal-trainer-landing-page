@@ -14,7 +14,7 @@ const AboutCard = ({ stat }: Props) => {
   const tAlt = useTranslations("Others.Alt.icons");
   return (
     <li
-      className="p-4 flex flex-col gap-10 lg:gap-2 bg-custom-white-80 dark:bg-custom-black-60 hover:bg-custom-white-90/90 dark:hover:bg-custom-black-60/90 rounded-3xl w-full
+      className="p-4 flex flex-col gap-8 lg:gap-2 bg-custom-white-80 dark:bg-custom-black-60 hover:bg-custom-white-90/90 dark:hover:bg-custom-black-60/90 rounded-3xl w-full
      transition-colors duration-300"
     >
       <Image

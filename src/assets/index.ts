@@ -20,6 +20,8 @@ import plansIcon from "./images/plansIcon.svg";
 import groupIcon from "./images/groupIcon.svg";
 import servicesPicture from "./images/servicesPicture.webp";
 import howWorksPicture from "./images/howWorksPicture.webp";
+import programIcon from "./images/programIcon.svg";
+import check from "./images/checkIcon.svg";
 
 // == Exportação
 export {
@@ -44,4 +46,6 @@ export {
   groupIcon,
   servicesPicture,
   howWorksPicture,
+  programIcon,
+  check,
 };

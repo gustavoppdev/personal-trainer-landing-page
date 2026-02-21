@@ -13,6 +13,7 @@ import { About } from "./components/About";
 import LogosTicker from "./components/LogosTicker";
 import { Services } from "./components/Services";
 import { HowWorks } from "./components/HowWorks";
+import { Programs } from "./components/Programs";
 
 const Home = () => {
   return (
@@ -46,6 +47,7 @@ const Home = () => {
         <Services />
       </div>
       <HowWorks />
+      <Programs />
     </main>
   );
 };

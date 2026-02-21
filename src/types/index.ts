@@ -48,3 +48,12 @@ export type StepType = {
   title: TranslationKey;
   description: TranslationKey;
 };
+
+// Tipo para Programs.tsx
+export type ProgramType = {
+  mostPopular: boolean;
+  title: TranslationKey;
+  price: TranslationKey;
+  description: TranslationKey;
+  features: TranslationKey[];
+};
