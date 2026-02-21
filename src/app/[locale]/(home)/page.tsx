@@ -10,6 +10,7 @@ import { heroImage } from "@/assets";
 import { Stats } from "./components/Stats";
 import CustomerQuote from "./components/CustomerQuote";
 import { About } from "./components/About";
+import LogosTicker from "./components/LogosTicker";
 
 const Home = () => {
   return (
@@ -34,8 +35,9 @@ const Home = () => {
       <Stats />
       <CustomerQuote />
 
-      <div className="space-y-10">
+      <div>
         <About />
+        <LogosTicker />
       </div>
     </main>
   );

@@ -11,6 +11,10 @@ import lightningIcon from "./images/lightningIcon.svg";
 import crowIcon from "./images/crowIcon.svg";
 import aboutImage from "./images/aboutImage.webp";
 import signature from "./images/signature.svg";
+import nasmLogo from "./images/nasmLogo.svg";
+import issaLogo from "./images/issaLogo.svg";
+import aceLogo from "./images/aceLogo.svg";
+import afaaLogo from "./images/afaaLogo.svg";
 
 // == Exportação
 export {
@@ -26,4 +30,8 @@ export {
   crowIcon,
   aboutImage,
   signature,
+  nasmLogo,
+  issaLogo,
+  aceLogo,
+  afaaLogo,
 };

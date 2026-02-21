@@ -1,4 +1,12 @@
-import { crowIcon, fireIcon, lightningIcon } from "@/assets";
+import {
+  aceLogo,
+  afaaLogo,
+  crowIcon,
+  fireIcon,
+  issaLogo,
+  lightningIcon,
+  nasmLogo,
+} from "@/assets";
 import {
   LocalesArrayType,
   NavigationLink,
@@ -65,5 +73,25 @@ export const PhilosophyStatsArray: PhilosophyStatType[] = [
   {
     iconSrc: crowIcon,
     description: "2.title",
+  },
+];
+
+// Array para LogosTicker.tsx
+export const LogosTickerArray = [
+  {
+    image: nasmLogo,
+    alt: "NASM",
+  },
+  {
+    image: aceLogo,
+    alt: "ACE",
+  },
+  {
+    image: issaLogo,
+    alt: "ISSA",
+  },
+  {
+    image: afaaLogo,
+    alt: "AFAA",
   },
 ];
