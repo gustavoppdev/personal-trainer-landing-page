@@ -100,6 +100,39 @@
           "description": "Designed for teams or partners who want shared motivation and accountability."
         }
       }
+    },
+    "HowWorks": {
+      "introduction": "How it works",
+      "headline": "Your path to lasting results",
+      "description": "Every transformation starts with structure. Here’s how we turn goals into real progress — one step at a time.",
+      "ctaBtn": "Book Your Free Call",
+      "steps": {
+        "0": {
+          "index": "01",
+          "title": "Discovery call",
+          "description": "We’ll explore your goals, challenges, and lifestyle to create the right approach."
+        },
+        "1": {
+          "index": "02",
+          "title": "Personalized Plan",
+          "description": "Training and nutrition tailored to your lifestyle — realistic, flexible, and sustainable."
+        },
+        "2": {
+          "index": "03",
+          "title": "Weekly Coaching",
+          "description": "We’ll explore your goals, challenges, and lifestyle to create the right approach."
+        },
+        "3": {
+          "index": "04",
+          "title": "Lifestyle Integration",
+          "description": "We adapt your plan as your schedule, cycle, and needs shift"
+        },
+        "4": {
+          "index": "05",
+          "title": "Long-Term Balance",
+          "description": "Progress doesn’t end here — we’ll refine, celebrate, and keep building together"
+        }
+      }
     }
   },
   "Others": {
@@ -124,7 +157,10 @@
       },
       "icons": {
         "star": "A yellow star",
-        "calendar": "A calendar"
+        "calendar": "A calendar",
+        "fire": "A fire",
+        "lightning": "A lightning",
+        "crown": "A crown"
       }
     }
   }
