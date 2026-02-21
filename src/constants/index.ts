@@ -2,7 +2,7 @@ import {
   aceLogo,
   afaaLogo,
   coachIcon,
-  crowIcon,
+  crownIcon,
   fireIcon,
   groupIcon,
   issaLogo,
@@ -17,6 +17,7 @@ import {
   PhilosophyStatType,
   ServiceFeatureType,
   StatType,
+  StepType,
 } from "../types";
 
 // Array para LanguageSwitcher.tsx
@@ -70,14 +71,17 @@ export const PhilosophyStatsArray: PhilosophyStatType[] = [
   {
     iconSrc: fireIcon,
     description: "0.title",
+    alt: "fire",
   },
   {
     iconSrc: lightningIcon,
     description: "1.title",
+    alt: "lightning",
   },
   {
-    iconSrc: crowIcon,
+    iconSrc: crownIcon,
     description: "2.title",
+    alt: "crown",
   },
 ];
 
@@ -127,5 +131,34 @@ export const ServicesFeatures: ServiceFeatureType[] = [
     description: "3.description",
     type: "withImage",
     image: servicesPicture,
+  },
+];
+
+// Array para HowWorks.tsx
+export const HowWorksStepsArray: StepType[] = [
+  {
+    index: "0.index",
+    title: "0.title",
+    description: "0.description",
+  },
+  {
+    index: "1.index",
+    title: "1.title",
+    description: "1.description",
+  },
+  {
+    index: "2.index",
+    title: "2.title",
+    description: "2.description",
+  },
+  {
+    index: "3.index",
+    title: "3.title",
+    description: "3.description",
+  },
+  {
+    index: "4.index",
+    title: "4.title",
+    description: "4.description",
   },
 ];

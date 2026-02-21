@@ -25,7 +25,7 @@ const FeatureCard = ({
 
   // Estrutura principal do card (cor e cantos)
   const baseCardClasses =
-    "p-6 rounded-3xl bg-custom-black-60 text-white cursor-pointer transition-all duration-300 hover:scale-[1.01]";
+    "p-6 rounded-3xl bg-custom-black-60 text-white cursor-pointer transition-all duration-300 hover:shadow-md shadow-custom-primary/50";
 
   const renderedIcon =
     typeof icon === "object" ? (
@@ -39,14 +39,17 @@ const FeatureCard = ({
   if (isWithImage) {
     return (
       <div
-        className={`${baseCardClasses} grid grid-cols-1 lg:grid-cols-2 gap-4`}
+        className={`${baseCardClasses} grid grid-cols-1 lg:grid-cols-2 gap-4 group `}
       >
         {/* Lado Esquerdo (Texto) */}
         <div className="flex flex-col justify-between">
           <span className="mb-4 block">{renderedIcon}</span>
 
           <div className="space-y-1">
-            <h3 className="text-custom-body-1">{t(title)}</h3>
+            <div className="w-fit space-y-0.5">
+              <h3 className="text-custom-body-1">{t(title)}</h3>
+              <div className="w-0 h-px bg-custom-primary transition-all duration-300 group-hover:w-full"></div>
+            </div>
             <p className="text-custom-body-3 text-custom-white-80 opacity-80">
               {t(description)}
             </p>
@@ -62,7 +65,7 @@ const FeatureCard = ({
               src={image}
               alt={t(title)}
               fill
-              sizes="(max-width: 640px) calc(100vw - 2.5rem), (max-width: 768px) 560px, (max-width: 1024px) 640px, (max-width: 1280px) 220.220.55px, (max-width: 1536px) 272px, 284px"
+              sizes="(max-width: 640px) calc(100vw - 2.5rem), (max-width: 768px) 560px, (max-width: 1024px) 640px, (max-width: 1280px) 220px, (max-width: 1536px) 272px, 284px"
               className="object-cover object-[50%_10%]"
               placeholder="blur"
               quality={90}
@@ -76,12 +79,15 @@ const FeatureCard = ({
   // Cards Padrão e Ênfase
   // Aplica as classes de hover no contêiner principal
   return (
-    <div className={`${baseCardClasses} flex flex-col justify-between`}>
+    <div className={`${baseCardClasses} flex flex-col justify-between group`}>
       {/* Rótulo / Ícone (Com estilo condicional) */}
       <span className={`${iconClasses} mb-4 block`}>{renderedIcon}</span>
 
       <div className="space-y-1">
-        <h3 className="text-custom-body-1">{t(title)}</h3>
+        <div className="w-fit space-y-0.5">
+          <h3 className="text-custom-body-1">{t(title)}</h3>
+          <div className="w-0 h-px bg-custom-primary transition-all duration-300 group-hover:w-full"></div>
+        </div>
         <p className="text-custom-body-3 text-custom-white-80 opacity-80">
           {t(description)}
         </p>

@@ -30,6 +30,7 @@ export type StatType = {
 export type PhilosophyStatType = {
   iconSrc: StaticImageData;
   description: TranslationKey;
+  alt: TranslationKey;
 };
 
 // Tipo para Services.tsx
@@ -39,4 +40,11 @@ export type ServiceFeatureType = {
   description: TranslationKey;
   image?: StaticImageData;
   type: "default" | "emphasis" | "withImage";
+};
+
+// Tipo para Steps.tsx
+export type StepType = {
+  index: TranslationKey;
+  title: TranslationKey;
+  description: TranslationKey;
 };

@@ -12,6 +12,7 @@ import CustomerQuote from "./components/CustomerQuote";
 import { About } from "./components/About";
 import LogosTicker from "./components/LogosTicker";
 import { Services } from "./components/Services";
+import { HowWorks } from "./components/HowWorks";
 
 const Home = () => {
   return (
@@ -44,6 +45,7 @@ const Home = () => {
       <div className="bg-custom-black-90">
         <Services />
       </div>
+      <HowWorks />
     </main>
   );
 };

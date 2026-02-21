@@ -100,6 +100,39 @@
           "description": "Ideal para equipes ou duplas que buscam motivação e responsabilidade compartilhada."
         }
       }
+    },
+    "HowWorks": {
+      "introduction": "Como funciona",
+      "headline": "Seu caminho para resultados duradouros",
+      "description": "Toda mudança começa com estrutura. Veja como transformamos metas em evolução real — passo a passo.",
+      "ctaBtn": "Agende sua sessão gratuita",
+      "steps": {
+        "0": {
+          "index": "01",
+          "title": "Chamada de Descoberta",
+          "description": "Vamos entender seus objetivos, desafios e rotina para definir o melhor caminho."
+        },
+        "1": {
+          "index": "02",
+          "title": "Plano Personalizado",
+          "description": "Treino e nutrição adaptados à sua realidade — prático, flexível e sustentável."
+        },
+        "2": {
+          "index": "03",
+          "title": "Acompanhamento Semanal",
+          "description": "Revisões constantes para manter você firme e ajustando quando necessário."
+        },
+        "3": {
+          "index": "04",
+          "title": "Integração ao Estilo de Vida",
+          "description": "Seu plano evolui conforme seu tempo, ciclo e necessidades mudam."
+        },
+        "4": {
+          "index": "05",
+          "title": "Equilíbrio a Longo Prazo",
+          "description": "A evolução continua — refinamos, celebramos e seguimos construindo juntas."
+        }
+      }
     }
   },
   "Others": {
@@ -124,7 +157,10 @@
       },
       "icons": {
         "star": "Uma estrela amarela",
-        "calendar": "Um calendário"
+        "calendar": "Um calendário",
+        "fire": "Um fogo",
+        "lightning": "Um raio",
+        "crown": "Uma coroa"
       }
     }
   }

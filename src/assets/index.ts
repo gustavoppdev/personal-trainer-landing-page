@@ -8,7 +8,7 @@ import calendarIcon from "./images/calendarIcon.svg";
 import avatar3 from "./images/avatar3.png";
 import fireIcon from "./images/fireIcon.svg";
 import lightningIcon from "./images/lightningIcon.svg";
-import crowIcon from "./images/crowIcon.svg";
+import crownIcon from "./images/crownIcon.svg";
 import aboutImage from "./images/aboutImage.webp";
 import signature from "./images/signature.svg";
 import nasmLogo from "./images/nasmLogo.svg";
@@ -19,6 +19,7 @@ import coachIcon from "./images/coachIcon.svg";
 import plansIcon from "./images/plansIcon.svg";
 import groupIcon from "./images/groupIcon.svg";
 import servicesPicture from "./images/servicesPicture.webp";
+import howWorksPicture from "./images/howWorksPicture.webp";
 
 // == Exportação
 export {
@@ -31,7 +32,7 @@ export {
   avatar3,
   fireIcon,
   lightningIcon,
-  crowIcon,
+  crownIcon,
   aboutImage,
   signature,
   nasmLogo,
@@ -42,4 +43,5 @@ export {
   plansIcon,
   groupIcon,
   servicesPicture,
+  howWorksPicture,
 };

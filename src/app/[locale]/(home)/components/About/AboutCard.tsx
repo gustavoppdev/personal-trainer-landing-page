@@ -11,6 +11,7 @@ type Props = {
 
 const AboutCard = ({ stat }: Props) => {
   const t = useTranslations("Sections.About.stats");
+  const tAlt = useTranslations("Others.Alt.icons");
   return (
     <li
       className="p-4 flex flex-col gap-10 lg:gap-2 bg-custom-white-80 dark:bg-custom-black-60 hover:bg-custom-white-90/90 dark:hover:bg-custom-black-60/90 rounded-3xl w-full
@@ -18,7 +19,7 @@ const AboutCard = ({ stat }: Props) => {
     >
       <Image
         src={stat.iconSrc}
-        alt={t(stat.description)}
+        alt={tAlt(stat.alt)}
         width={32}
         height={32}
         sizes="32px"
