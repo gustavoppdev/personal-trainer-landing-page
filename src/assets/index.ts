@@ -15,6 +15,10 @@ import nasmLogo from "./images/nasmLogo.svg";
 import issaLogo from "./images/issaLogo.svg";
 import aceLogo from "./images/aceLogo.svg";
 import afaaLogo from "./images/afaaLogo.svg";
+import coachIcon from "./images/coachIcon.svg";
+import plansIcon from "./images/plansIcon.svg";
+import groupIcon from "./images/groupIcon.svg";
+import servicesPicture from "./images/servicesPicture.webp";
 
 // == Exportação
 export {
@@ -34,4 +38,8 @@ export {
   issaLogo,
   aceLogo,
   afaaLogo,
+  coachIcon,
+  plansIcon,
+  groupIcon,
+  servicesPicture,
 };

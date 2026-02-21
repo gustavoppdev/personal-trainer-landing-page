@@ -26,7 +26,7 @@ export const About = () => {
           src={aboutImage}
           alt="Rachel Stone"
           fill
-          sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 768px) 608px, (max-width: 1024px) 688px, (max-width: 1280px) 452px, (max-width: 1536px) 540px, 588px"
+          sizes="(max-width: 640px) calc(100vw - 1rem), (max-width: 768px) 608px, (max-width: 1024px) 688px, (max-width: 1280px) 452px, (max-width: 1536px) 540px, 588px"
           placeholder="blur"
           blurDataURL={aboutImage.src}
           className="object-cover"

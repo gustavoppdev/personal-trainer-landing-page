@@ -11,6 +11,7 @@ import { Stats } from "./components/Stats";
 import CustomerQuote from "./components/CustomerQuote";
 import { About } from "./components/About";
 import LogosTicker from "./components/LogosTicker";
+import { Services } from "./components/Services";
 
 const Home = () => {
   return (
@@ -38,6 +39,10 @@ const Home = () => {
       <div>
         <About />
         <LogosTicker />
+      </div>
+
+      <div className="bg-custom-black-90">
+        <Services />
       </div>
     </main>
   );

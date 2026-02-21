@@ -1,16 +1,21 @@
 import {
   aceLogo,
   afaaLogo,
+  coachIcon,
   crowIcon,
   fireIcon,
+  groupIcon,
   issaLogo,
   lightningIcon,
   nasmLogo,
+  plansIcon,
+  servicesPicture,
 } from "@/assets";
 import {
   LocalesArrayType,
   NavigationLink,
   PhilosophyStatType,
+  ServiceFeatureType,
   StatType,
 } from "../types";
 
@@ -93,5 +98,34 @@ export const LogosTickerArray = [
   {
     image: afaaLogo,
     alt: "AFAA",
+  },
+];
+
+// Array para Services.tsx
+export const ServicesFeatures: ServiceFeatureType[] = [
+  {
+    icon: "NYC",
+    title: "0.title",
+    description: "0.description",
+    type: "emphasis",
+  },
+  {
+    icon: coachIcon,
+    title: "1.title",
+    description: "1.description",
+    type: "default",
+  },
+  {
+    icon: plansIcon,
+    title: "2.title",
+    description: "2.description",
+    type: "default",
+  },
+  {
+    icon: groupIcon,
+    title: "3.title",
+    description: "3.description",
+    type: "withImage",
+    image: servicesPicture,
   },
 ];
