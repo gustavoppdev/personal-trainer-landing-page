@@ -34,7 +34,7 @@ export const HowWorks = () => {
       </div>
 
       {/* Steps */}
-      <ul className="flex flex-col gap-10 justify-between font-medium">
+      <ul className="flex flex-col gap-10 justify-between font-medium items-start lg:mx-auto">
         {HowWorksStepsArray.map((step) => (
           <Step key={step.index} step={step} />
         ))}

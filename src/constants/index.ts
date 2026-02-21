@@ -15,6 +15,7 @@ import {
   LocalesArrayType,
   NavigationLink,
   PhilosophyStatType,
+  ProgramType,
   ServiceFeatureType,
   StatType,
   StepType,
@@ -160,5 +161,30 @@ export const HowWorksStepsArray: StepType[] = [
     index: "4.index",
     title: "4.title",
     description: "4.description",
+  },
+];
+
+// Array para Programs.tsx
+export const ProgramsArray: ProgramType[] = [
+  {
+    mostPopular: false,
+    title: "0.title",
+    price: "0.price",
+    description: "0.description",
+    features: ["0.features.0", "0.features.1", "0.features.2", "0.features.3"],
+  },
+  {
+    mostPopular: true,
+    title: "1.title",
+    price: "1.price",
+    description: "1.description",
+    features: ["1.features.0", "1.features.1", "1.features.2", "1.features.3"],
+  },
+  {
+    mostPopular: false,
+    title: "2.title",
+    price: "2.price",
+    description: "2.description",
+    features: ["2.features.0", "2.features.1", "2.features.2", "2.features.3"],
   },
 ];

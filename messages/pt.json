@@ -133,6 +133,50 @@
           "description": "A evolução continua — refinamos, celebramos e seguimos construindo juntas."
         }
       }
+    },
+    "Programs": {
+      "introduction": "Para você",
+      "headline": "Programas Exclusivos",
+      "description": "Escolha o programa que melhor combina com seu ritmo, metas e rotina. Todos incluem treinos personalizados, orientação nutricional e suporte semanal.",
+      "pricing": {
+        "perMonth": "/mês",
+        "mostPopular": "Mais Popular",
+        "included": "O que está incluído",
+        "join": "Entrar no Programa",
+        "0": {
+          "title": "Transformação em 12 Semanas",
+          "price": "$249",
+          "description": "Coaching guiado para recuperar força, aumentar energia e alcançar resultados reais e duradouros.",
+          "features": {
+            "0": "Treinos personalizados",
+            "1": "Acompanhamento semanal",
+            "2": "Fundamentos de nutrição",
+            "3": "Suporte por chat e e-mail"
+          }
+        },
+        "1": {
+          "title": "Recomeço Pós-Parto",
+          "price": "$329",
+          "description": "Recuperação segura e gradual para mães retomarem confiança e equilíbrio.",
+          "features": {
+            "0": "Plano de treino pós-parto personalizado",
+            "1": "Orientação de nutrição e recuperação",
+            "2": "Check-ins semanais 1:1",
+            "3": "Suporte contínuo entre sessões"
+          }
+        },
+        "2": {
+          "title": "Definição com Equilíbrio Hormonal",
+          "price": "$449",
+          "description": "Treinos + nutrição ajustados ao seu ciclo, energia e necessidades hormonais.",
+          "features": {
+            "0": "Ciclos de treino periodizados",
+            "1": "Refeições prontas e equilibradas",
+            "2": "Avaliações quinzenais",
+            "3": "Acesso prioritário a mensagens"
+          }
+        }
+      }
     }
   },
   "Others": {
