@@ -1,4 +1,5 @@
 import { routingLocales } from "@/i18n/routing";
+import { StaticImageData } from "next/image";
 
 // Tipo para chave de tradução do next-intl
 type TranslationKey = string;
@@ -22,5 +23,11 @@ export type NavigationLink = {
 export type StatType = {
   value: TranslationKey;
   title: TranslationKey;
+  description: TranslationKey;
+};
+
+// Tipo para About.tsx
+export type PhilosophyStatType = {
+  iconSrc: StaticImageData;
   description: TranslationKey;
 };

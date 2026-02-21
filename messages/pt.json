@@ -57,6 +57,25 @@
       "quote": "“Depois de dois filhos, achei que nunca mais me sentiria tão forte. A Rachel Stone me ajudou a reconstruir meu corpo e minha confiança.”",
       "author": "Sara Chen",
       "authorDescription": "Postnatal Reboot - Novembro 2025"
+    },
+    "About": {
+      "introduction": "Conheça sua coach",
+      "headline": "Oi, eu sou a Rachel Stone",
+      "description1": "Por muitos anos, acreditei que força significava fazer mais — treinar mais, comer melhor, dormir menos. Ignorei sinais de exaustão achando que disciplina traria liberdade. Não trouxe.",
+      "description2": "Quando o burnout me obrigou a desacelerar, comecei a ouvir meu corpo. Estudei como movimento, hormônios, descanso e mente trabalham juntos — e reconquistei minha força com consciência, não com pressão.",
+      "description3": "Hoje ajudo mulheres a fazer o mesmo: voltar a se sentir capazes sem precisarem se sacrificar. Meu método une ciência e empatia — hábitos, psicologia e equilíbrio de longo prazo.",
+      "stats": {
+        "title": "Minha Filosofia",
+        "0": {
+          "title": "Força acima da comparação"
+        },
+        "1": {
+          "title": "Equilíbrio sempre antes dos extremos"
+        },
+        "2": {
+          "title": "Hábitos acima de soluções rápidas"
+        }
+      }
     }
   },
   "Others": {

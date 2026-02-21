@@ -57,6 +57,25 @@
       "quote": "“After two kids, I never thought I’d feel this strong again. Rachel Stone helped me rebuild my body and confidence.”",
       "author": "Sara Chen",
       "authorDescription": "Postnatal Reboot - November 2025"
+    },
+    "About": {
+      "introduction": "Meet your coach",
+      "headline": "Hi, I'm Rachel Stone",
+      "description1": "For years, I thought strength meant doing more — training harder, eating cleaner, sleeping less. I pushed through exhaustion, believing discipline would bring freedom. It didn’t.",
+      "description2": "When burnout finally forced me to slow down, I started listening. I studied how movement, hormones, rest, and mindset work together — and rebuilt my strength through awareness, not pressure.",
+      "description3": "Now I help women do the same: feel capable and confident again without sacrificing themselves to get there. My approach blends science and empathy — habit- based, psychology-first, and built for lasting balance",
+      "stats": {
+        "title": "My Philosophy",
+        "0": {
+          "title": "Strength Over Comparison"
+        },
+        "1": {
+          "title": "Balance Always Over Extremes"
+        },
+        "2": {
+          "title": "Habits Over Quick Fixes"
+        }
+      }
     }
   },
   "Others": {
