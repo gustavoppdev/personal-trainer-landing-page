@@ -177,6 +177,18 @@
           }
         }
       }
+    },
+    "Results": {
+      "introduction": "Resultados",
+      "headline": "Evolução que dá para ver",
+      "description": "Cada transformação carrega uma história. Os programas são pensados para te ajudar a mover melhor, ganhar força e evoluir de forma consistente — sem extremos, sem exaustão, sem atalhos.",
+      "quote": "“Eu vivia cansada e frustrada, por mais que me esforçasse. A Rachel me ajudou a reconectar com meu corpo e ganhar força sem esgotamento. Pela primeira vez, estou gostando de treinar — e as mudanças foram tão mentais quanto físicas.”",
+      "author": "Sophie Lammers",
+      "authorDescription": "Programa de 12 Semanas",
+      "before": "Antes",
+      "after": "Depois",
+      "beforeAltImage": "Antes da transformação",
+      "afterAltImage": "Depois da transformação"
     }
   },
   "Others": {

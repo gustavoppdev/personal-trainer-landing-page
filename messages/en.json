@@ -177,6 +177,18 @@
           }
         }
       }
+    },
+    "Results": {
+      "introduction": "Results",
+      "headline": "Progress you can see",
+      "description": "Every transformation tells a story. These programs are built to help you move better, feel stronger, and see steady progress, without extremes, burnout, or quick fixes.",
+      "quote": "“I used to feel drained and frustrated no matter how much I tried. Rachel helped me reconnect with my body and rebuild strength without burnout. For the first time, I actually enjoy moving again — and the changes haven’t just been physical, they’ve been mental too.”",
+      "author": "Sophie Lammers",
+      "authorDescription": "12-Week Transformation Program",
+      "before": "Before",
+      "after": "After",
+      "beforeAltImage": "Before transformation",
+      "afterAltImage": "After transformation"
     }
   },
   "Others": {

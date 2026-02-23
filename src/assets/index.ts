@@ -22,6 +22,9 @@ import servicesPicture from "./images/servicesPicture.webp";
 import howWorksPicture from "./images/howWorksPicture.webp";
 import programIcon from "./images/programIcon.svg";
 import check from "./images/checkIcon.svg";
+import beforePicture from "./images/beforePicture.webp";
+import afterPicture from "./images/afterPicture.webp";
+import avatar4 from "./images/avatar4.png";
 
 // == Exportação
 export {
@@ -48,4 +51,7 @@ export {
   howWorksPicture,
   programIcon,
   check,
+  beforePicture,
+  afterPicture,
+  avatar4,
 };
