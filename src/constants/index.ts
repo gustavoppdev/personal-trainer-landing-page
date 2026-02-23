@@ -12,6 +12,7 @@ import {
   servicesPicture,
 } from "@/assets";
 import {
+  FAQType,
   LocalesArrayType,
   NavigationLink,
   PhilosophyStatType,
@@ -186,5 +187,33 @@ export const ProgramsArray: ProgramType[] = [
     price: "2.price",
     description: "2.description",
     features: ["2.features.0", "2.features.1", "2.features.2", "2.features.3"],
+  },
+];
+
+// Array para FAQ.tsx
+export const FAQArray: FAQType[] = [
+  {
+    question: "0.question",
+    answer: "0.answer",
+  },
+  {
+    question: "1.question",
+    answer: "1.answer",
+  },
+  {
+    question: "2.question",
+    answer: "2.answer",
+  },
+  {
+    question: "3.question",
+    answer: "3.answer",
+  },
+  {
+    question: "4.question",
+    answer: "4.answer",
+  },
+  {
+    question: "5.question",
+    answer: "5.answer",
   },
 ];

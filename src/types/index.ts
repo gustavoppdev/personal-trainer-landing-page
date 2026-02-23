@@ -57,3 +57,9 @@ export type ProgramType = {
   description: TranslationKey;
   features: TranslationKey[];
 };
+
+// Tipo para FAQ.tsx
+export type FAQType = {
+  question: TranslationKey;
+  answer: TranslationKey;
+};
