@@ -1,12 +1,9 @@
-// Next.js & Next-Intl
+// Next.js
 import Image from "next/image";
 
 // Componentes
-import { Hero } from "./components/Hero";
 import NavigationBar from "@/components/layout/NavigationBar";
-
-// Assets
-import { heroImage } from "@/assets";
+import { Hero } from "./components/Hero";
 import { Stats } from "./components/Stats";
 import CustomerQuote from "./components/CustomerQuote";
 import { About } from "./components/About";
@@ -14,6 +11,10 @@ import LogosTicker from "./components/LogosTicker";
 import { Services } from "./components/Services";
 import { HowWorks } from "./components/HowWorks";
 import { Programs } from "./components/Programs";
+import { Results } from "./components/Results";
+
+// Assets
+import { heroImage } from "@/assets";
 
 const Home = () => {
   return (
@@ -48,6 +49,7 @@ const Home = () => {
       </div>
       <HowWorks />
       <Programs />
+      <Results />
     </main>
   );
 };
