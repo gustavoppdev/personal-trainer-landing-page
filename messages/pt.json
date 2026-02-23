@@ -29,6 +29,23 @@
         "results": "Resultados",
         "contact": "Contato"
       }
+    },
+    "Metadata": {
+      "title": "Rachel Stone - Treinadora Pessoal",
+      "description": "Treinamento físico personalizado para mulheres. Reconstrua força, confiança e equilíbrio com Rachel Stone.",
+      "keywords": "personal trainer, treinadora física, fitness feminino, recuperação pós-parto, treino de força, consultoria online",
+      "openGraph": {
+        "title": "Rachel Stone - Treinadora Pessoal",
+        "description": "Treinamento físico personalizado para mulheres. Reconstrua força, confiança e equilíbrio com Rachel Stone.",
+        "siteName": "Rachel Stone Fitness",
+        "locale": "pt_BR",
+        "type": "website"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Rachel Stone - Treinadora Pessoal",
+        "description": "Treinamento físico personalizado para mulheres. Reconstrua força, confiança e equilíbrio com Rachel Stone."
+      }
     }
   },
   "Sections": {

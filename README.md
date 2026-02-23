@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# Personal Trainer Landing Page
 
-First, run the development server:
+### Rachel Stone — Personal Trainer
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+_Uma landing page moderna e responsável para personal trainer, construída com as melhores práticas de desenvolvimento front-end_
+
+#### [Link da demo](https://rachelstone-landing-page.vercel.app/)
+
+---
+
+[![Next.js](https://img.shields.io/badge/Next.js-16.1-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.2-61dafb?style=flat-square&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38bdf8?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+
+</div>
+
+---
+
+## 📐 Design
+
+Este projeto foi desenvolvido a partir de um design profissional criado no Figma:
+
+**[Dject Studio](https://djectstudio.com/)** — [Link do Design](https://www.figma.com/files/team/1532822844989911340/resources/community/file/1569006333493544411/personal-fitness-trainer-template-free?fuid=1532822842025095530)
+
+## ✨ Sobre o Projeto
+
+**Personal Trainer Landing Page** é uma landing page completa para personal trainer com foco em:
+
+- **Performance**: Next.js 16 com App Router e React Server Components
+- **Internacionalização**: `next-intl` com suporte a múltiplos idiomas
+- **SEO**: Metadata e OpenGraph dinâmicos por locale
+- **UI/UX**: Design system com Tailwind CSS 4, shadcn/ui e Radix UI
+- **Tema**: Suporte a modo claro e escuro via `next-themes`
+
+## 🛠️ Stack
+
+Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · shadcn/ui · next-intl · General Sans
+
+## 📄 Seções
+
+- **Hero** — Apresentação principal com imagem de destaque
+- **Stats** — Números e conquistas
+- **About** — Quem é a personal trainer
+- **Services** — Serviços oferecidos
+- **How it Works** — Passo a passo do processo
+- **Programs** — Planos e programas disponíveis
+- **Results** — Resultados de clientes
+- **FAQ** — Perguntas frequentes
+- **Contact** — Formulário de contato
+
+## 🏗️ Arquitetura
+
+```
+src/
+├── app/[locale]/          # Rotas internacionalizadas
+│   ├── layout.tsx         # Layout root + metadata
+│   ├── globals.css        # Design tokens CSS
+│   └── (home)/
+│       ├── page.tsx       # Página principal
+│       └── components/    # Seções da landing page
+├── components/            # Componentes reutilizáveis globais
+│   ├── layout/            # NavigationBar, Footer
+│   ├── common/            # Componentes compartilhados
+│   └── ui/                # shadcn/ui components
+├── assets/                # Imagens e fontes locais
+├── constants/             # Dados estáticos
+├── i18n/                  # Configuração next-intl
+├── lib/                   # Utilitários
+└── types/                 # TypeScript definitions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Pré-requisitos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 20+
+- npm ou yarn
 
-## Learn More
+### Instalação
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone o repositório
+git clone https://github.com/gustavoppdev/personal-trainer-landing-page.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Entre no diretório
+cd personal-trainer-landing-page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Instale as dependências
+npm install
+```
 
-## Deploy on Vercel
+### Desenvolvimento
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Inicie o servidor de desenvolvimento
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Abra [http://localhost:3000](http://localhost:3000) no navegador.
+
+## 📄 Licença
+
+Este projeto é open source e está disponível sob a [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Autor
+
+**Gustavo Henrique**
+
+Desenvolvedor Front-end especializado em React, Next.js e arquiteturas modernas. Este projeto demonstra habilidades em:
+
+- Arquitetura de aplicações escaláveis
+- Performance e otimizações
+- Design systems e componentização
+- Type safety e qualidade de código
+- SEO e acessibilidade
+- Internacionalização
+
+---
+
+<div align="center">
+
+**[⬆ Voltar ao topo](#personal-trainer-landing-page)**
+
+Feito com ❤️ e TypeScript
+
+</div>
