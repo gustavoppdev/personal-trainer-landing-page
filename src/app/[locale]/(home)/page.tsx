@@ -15,6 +15,7 @@ import { Results } from "./components/Results";
 
 // Assets
 import { heroImage } from "@/assets";
+import { FAQ } from "./components/FAQ";
 
 const Home = () => {
   return (
@@ -50,6 +51,7 @@ const Home = () => {
       <HowWorks />
       <Programs />
       <Results />
+      <FAQ />
     </main>
   );
 };

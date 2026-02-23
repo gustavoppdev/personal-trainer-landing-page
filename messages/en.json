@@ -189,6 +189,39 @@
       "after": "After",
       "beforeAltImage": "Before transformation",
       "afterAltImage": "After transformation"
+    },
+    "FAQ": {
+      "introduction": "FAQ",
+      "headline": "Frequently Asked Questions",
+      "description": "If you’re new here or wondering what to expect, these answers will guide you through how coaching works, what’s included, and how we tailor every plan to your needs.",
+      "ctaBtn": "Send e-mail",
+      "faqs": {
+        "0": {
+          "question": "What should I expect during my first session?",
+          "answer": "Your first session is a relaxed introduction. We’ll review your goals, current routine, and any limitations, then run through simple movements to understand your starting point."
+        },
+        "1": {
+          "question": "Do I need a gym membership?",
+          "answer": "A gym membership isn’t required. Your program can be built for home, gym, or a mix of both depending on your preference and equipment."
+        },
+        "2": {
+          "question": "How often should I train each week?",
+          "answer": "Most clients train 3–4 times per week, but the schedule is tailored to your lifestyle. The goal is consistency — not exhaustion."
+        },
+
+        "3": {
+          "question": "Is nutrition coaching included?",
+          "answer": "Yes. You’ll receive practical nutrition guidance based on your goals, preferences, and daily routine — without restrictive rules."
+        },
+        "4": {
+          "question": "Can I cancel or pause my plan anytime?",
+          "answer": "Absolutely. You can pause or cancel your plan whenever needed — no hidden fees or long-term commitments."
+        },
+        "5": {
+          "question": "How long will it take to see results?",
+          "answer": "Most clients notice improvements in energy, posture, and strength within a few weeks. Visible physical results vary, but consistent work pays off."
+        }
+      }
     }
   },
   "Others": {

@@ -189,6 +189,38 @@
       "after": "Depois",
       "beforeAltImage": "Antes da transformação",
       "afterAltImage": "Depois da transformação"
+    },
+    "FAQ": {
+      "introduction": "FAQ",
+      "headline": "Perguntas Frequentes",
+      "description": "Se você está chegando agora ou quer entender melhor como funciona, essas respostas explicam o processo, o que está incluído e como personalizamos cada plano para você.",
+      "ctaBtn": "Enviar e-mail",
+      "faqs": {
+        "0": {
+          "question": "O que posso esperar da minha primeira sessão?",
+          "answer": "A primeira sessão é uma introdução leve. Vamos revisar suas metas, sua rotina atual e possíveis limitações, além de fazer alguns movimentos simples para entender seu ponto de partida."
+        },
+        "1": {
+          "question": "Preciso ter matrícula na academia?",
+          "answer": "Você não precisa de academia. Seu plano pode ser feito para treinar em casa, na academia ou de forma híbrida, dependendo do que você prefere e do que tem disponível."
+        },
+        "2": {
+          "question": "Com que frequência devo treinar por semana?",
+          "answer": "A maioria das clientes treina entre 3 e 4 vezes por semana, mas o cronograma é ajustado à sua rotina. O objetivo é consistência — não exaustão."
+        },
+        "3": {
+          "question": "O acompanhamento nutricional está incluído?",
+          "answer": "Sim. Você recebe orientações práticas de nutrição baseadas nas suas metas, preferências e rotina — sem regras restritivas."
+        },
+        "4": {
+          "question": "Posso cancelar ou pausar meu plano a qualquer momento?",
+          "answer": "Com certeza. Você pode pausar ou cancelar seu plano sempre que precisar — sem taxas escondidas ou compromissos longos."
+        },
+        "5": {
+          "question": "Quanto tempo leva para ver resultados?",
+          "answer": "A maioria das clientes percebe melhorias na energia, postura e força em poucas semanas. Os resultados físicos variam, mas a consistência sempre traz retorno."
+        }
+      }
     }
   },
   "Others": {
