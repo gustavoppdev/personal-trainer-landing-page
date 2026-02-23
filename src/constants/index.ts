@@ -5,17 +5,23 @@ import {
   coachIcon,
   crownIcon,
   fireIcon,
+  globeIcon,
   groupIcon,
+  instagramIcon,
   issaLogo,
   lightningIcon,
+  mailIcon,
   nasmLogo,
   phoneIcon,
   plansIcon,
   servicesPicture,
+  xIcon,
+  youtubeIcon,
 } from "@/assets";
 import {
   ContactType,
   FAQType,
+  FooterSocialLinkType,
   LocalesArrayType,
   NavigationLink,
   PhilosophyStatType,
@@ -227,5 +233,33 @@ export const ContactCTA: ContactType[] = [
     icon: phoneIcon,
     title: "1.title",
     description: "1.description",
+  },
+];
+
+export const FooterSocialLinks: FooterSocialLinkType[] = [
+  {
+    href: "#",
+    icon: instagramIcon,
+    alt: "Instagram",
+  },
+  {
+    href: "#",
+    icon: xIcon,
+    alt: "X",
+  },
+  {
+    href: "#",
+    icon: youtubeIcon,
+    alt: "Youtube",
+  },
+  {
+    href: "#",
+    icon: globeIcon,
+    alt: "Globe",
+  },
+  {
+    href: "#",
+    icon: mailIcon,
+    alt: "Mail",
   },
 ];

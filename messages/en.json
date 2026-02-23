@@ -17,6 +17,18 @@
       "alt": {
         "openMenu": "Open menu"
       }
+    },
+    "Footer": {
+      "copyright": "Copyright © 2025 – All Right Reserved",
+      "createdBy": "Design created by",
+      "links": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "programs": "Programs",
+        "results": "Results",
+        "contact": "Contact"
+      }
     }
   },
   "Sections": {

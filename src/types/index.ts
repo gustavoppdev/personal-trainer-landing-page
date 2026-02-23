@@ -64,8 +64,16 @@ export type FAQType = {
   answer: TranslationKey;
 };
 
+// Tipo para Contact.tsx
 export type ContactType = {
   icon: StaticImageData;
   title: TranslationKey;
   description: TranslationKey;
+};
+
+// Tipo para Footer.tsx
+export type FooterSocialLinkType = {
+  href: string;
+  icon: StaticImageData;
+  alt: string;
 };
