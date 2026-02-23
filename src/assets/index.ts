@@ -25,6 +25,8 @@ import check from "./images/checkIcon.svg";
 import beforePicture from "./images/beforePicture.webp";
 import afterPicture from "./images/afterPicture.webp";
 import avatar4 from "./images/avatar4.png";
+import chatIcon from "./images/chatIcon.svg";
+import phoneIcon from "./images/phoneIcon.svg";
 
 // == Exportação
 export {
@@ -54,4 +56,6 @@ export {
   beforePicture,
   afterPicture,
   avatar4,
+  chatIcon,
+  phoneIcon,
 };

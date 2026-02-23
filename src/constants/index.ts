@@ -1,6 +1,7 @@
 import {
   aceLogo,
   afaaLogo,
+  chatIcon,
   coachIcon,
   crownIcon,
   fireIcon,
@@ -8,10 +9,12 @@ import {
   issaLogo,
   lightningIcon,
   nasmLogo,
+  phoneIcon,
   plansIcon,
   servicesPicture,
 } from "@/assets";
 import {
+  ContactType,
   FAQType,
   LocalesArrayType,
   NavigationLink,
@@ -215,5 +218,14 @@ export const FAQArray: FAQType[] = [
   {
     question: "5.question",
     answer: "5.answer",
+  },
+];
+
+export const ContactCTA: ContactType[] = [
+  { icon: chatIcon, title: "0.title", description: "0.description" },
+  {
+    icon: phoneIcon,
+    title: "1.title",
+    description: "1.description",
   },
 ];

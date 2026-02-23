@@ -221,6 +221,37 @@
           "answer": "A maioria das clientes percebe melhorias na energia, postura e força em poucas semanas. Os resultados físicos variam, mas a consistência sempre traz retorno."
         }
       }
+    },
+    "Contact": {
+      "introduction": "Contato",
+      "headline": "Vamos construir seu plano juntas!",
+      "description": "Tem dúvidas sobre treino, nutrição ou qual programa combina mais com você? Fale conosco — vamos ajudar você a dar o próximo passo.",
+      "cards": {
+        "0": {
+          "title": "Chat",
+          "description": "Converse diretamente com a coach Rachel"
+        },
+        "1": {
+          "title": "Ligue para nós",
+          "description": "Seg - Sex, 8:00 - 17:00 (CET)"
+        }
+      },
+      "sendAMessage": {
+        "title": "Enviar uma mensagem",
+        "fullname": {
+          "label": "Nome completo",
+          "placeholder": "Digite seu nome completo"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "hello@djectstudio.com"
+        },
+        "message": {
+          "label": "Mensagem",
+          "placeholder": "Conte seus objetivos ou no que gostaria de ajuda..."
+        },
+        "sendBtn": "Enviar mensagem"
+      }
     }
   },
   "Others": {
