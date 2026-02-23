@@ -222,6 +222,37 @@
           "answer": "Most clients notice improvements in energy, posture, and strength within a few weeks. Visible physical results vary, but consistent work pays off."
         }
       }
+    },
+    "Contact": {
+      "introduction": "Contact",
+      "headline": "Let’s build your plan together!",
+      "description": "Have a question about training, nutrition, or which program fits you best? Reach out — we’ll help you find your next step forward.",
+      "cards": {
+        "0": {
+          "title": "Chat",
+          "description": "Chat directly with coach Rachel"
+        },
+        "1": {
+          "title": "Call us",
+          "description": "Mon - Fri, 8:00 - 17:00 (CET)"
+        }
+      },
+      "sendAMessage": {
+        "title": "Send a Message",
+        "fullname": {
+          "label": "Full name",
+          "placeholder": "Enter your full name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "hello@djectstudio.com"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Tell me about your goals or what you’d like help with..."
+        },
+        "sendBtn": "Send Message"
+      }
     }
   },
   "Others": {

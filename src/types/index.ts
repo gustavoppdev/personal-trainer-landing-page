@@ -63,3 +63,9 @@ export type FAQType = {
   question: TranslationKey;
   answer: TranslationKey;
 };
+
+export type ContactType = {
+  icon: StaticImageData;
+  title: TranslationKey;
+  description: TranslationKey;
+};
