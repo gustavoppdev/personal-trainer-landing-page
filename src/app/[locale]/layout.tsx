@@ -12,7 +12,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 
 // CSS
 import "./globals.css";
-import NavigationBar from "@/components/layout/NavigationBar";
+import Footer from "@/components/layout/Footer";
 
 const generalSans = localFont({
   variable: "--font-general-sans",
@@ -71,7 +71,10 @@ export default async function RootLayout({ children, params }: Props) {
           enableSystem
           disableTransitionOnChange
         >
-          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <NextIntlClientProvider>
+            {children}
+            <Footer />
+          </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>

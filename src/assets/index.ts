@@ -27,6 +27,12 @@ import afterPicture from "./images/afterPicture.webp";
 import avatar4 from "./images/avatar4.png";
 import chatIcon from "./images/chatIcon.svg";
 import phoneIcon from "./images/phoneIcon.svg";
+import instagramIcon from "./images/instagramIcon.svg";
+import xIcon from "./images/xIcon.svg";
+import youtubeIcon from "./images/youtubeIcon.svg";
+import globeIcon from "./images/globeIcon.svg";
+import mailIcon from "./images/mailIcon.svg";
+import djectLogo from "./images/djectLogo.svg";
 
 // == Exportação
 export {
@@ -58,4 +64,10 @@ export {
   avatar4,
   chatIcon,
   phoneIcon,
+  instagramIcon,
+  xIcon,
+  youtubeIcon,
+  globeIcon,
+  mailIcon,
+  djectLogo,
 };

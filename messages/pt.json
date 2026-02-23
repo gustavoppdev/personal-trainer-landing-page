@@ -17,6 +17,18 @@
       "alt": {
         "openMenu": "Abrir menu"
       }
+    },
+    "Footer": {
+      "copyright": "Copyright © 2026 – Todos os direitos reservados",
+      "createdBy": "Design criado por",
+      "links": {
+        "home": "Início",
+        "about": "Sobre",
+        "services": "Serviços",
+        "programs": "Programas",
+        "results": "Resultados",
+        "contact": "Contato"
+      }
     }
   },
   "Sections": {
